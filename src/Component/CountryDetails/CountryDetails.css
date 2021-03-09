@@ -1,0 +1,25 @@
+.countryDetails img{
+    width : 400px;
+}
+.countryDetails{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 50px;
+    background-color: lightgray;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.details{
+    text-align:center;
+
+}
+
+@media  (max-width: 688px) {
+    .countryDetails{ 
+        display: flex;
+    }
+    .countryDetails img{
+        width : 100px;
+    }
+}
