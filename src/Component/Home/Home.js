@@ -9,7 +9,7 @@ const Home = () => {
         fetch(url)
         .then(res=>res.json())
         .then(data=>setCountries(data))
-    },[])
+    },[countries])
     return (
         <div className='countries-container'>
             {
